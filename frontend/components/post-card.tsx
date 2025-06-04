@@ -33,6 +33,7 @@ export function PostCard({ post, onVote }: PostCardProps) {
       try {
         setLoading(true);
         const data = await ipfsService.getContent(post.contentHash);
+        console.log("Fetched IPFS content:", data);
         setContent(data);
       } catch (error) {
         console.error("Error fetching post content:", error);
@@ -100,7 +101,9 @@ export function PostCard({ post, onVote }: PostCardProps) {
           </div>
         ) : content ? (
           <div className="space-y-4">
-            <p className="text-sm text-muted-foreground">{content.content}</p>
+            <p className="text-sm text-muted-foreground">
+              {content.description}
+            </p>
             {content.tags && content.tags.length > 0 && (
               <div className="flex flex-wrap gap-2">
                 {content.tags.map((tag) => (
