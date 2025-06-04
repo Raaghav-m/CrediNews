@@ -7,7 +7,7 @@ CrediNews is a decentralized news publishing platform built on the [Graphite Net
 ## 🌐 Live Demo
 
 [🔗 Visit the Live App](https://credinews.vercel.app)  
-[🎥 Watch Demo Video](https://youtu.be/YOUR_VIDEO_ID) _(replace this with your actual link)_
+[🎥 Watch Demo Video](https://www.youtube.com/watch?v=mEX8YGswRZo) 
 
 ---
 
@@ -79,7 +79,7 @@ In essence, Graphite was not just a blockchain — it was the backbone that made
 | Frontend       | Next.js + wagmi + viem                                     |
 | Wallet Auth    | MetaMask via `wagmi/connectors`                            |
 | Storage        | IPFS via Pinata SDK                                        |
-| Chain          | [Graphite Testnet](https://graphite.xyz) (Chain ID: 54170) |
+| Chain          | [Graphite Testnet](https://atgraphite.com/) (Chain ID: 54170) |
 | Hosting        | Vercel (Frontend), IPFS (Posts)                            |
 
 ---
